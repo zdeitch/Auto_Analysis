@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+
+# Testing / tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Agent output (charts, reports) — keep the repo clean of run artifacts
+outputs/
+
+# Secrets — never commit API keys
+.env
+*.key
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/

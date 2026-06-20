@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "auto-analysis"
+version = "0.0.0"
+description = "An autonomous data-analyst CLI agent powered by Claude."
+requires-python = ">=3.10"
+dependencies = [
+    "claude-agent-sdk",
+    "pandas",
+    "numpy",
+    "scikit-learn",
+    "matplotlib",
+    "openpyxl",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.scripts]
+auto-analysis = "auto_analysis.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

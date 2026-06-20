@@ -1,0 +1,13 @@
+region,month,ad_spend,price,units_sold
+North,Jan,1200,19.99,340
+North,Feb,1500,19.99,410
+North,Mar,900,21.99,260
+South,Jan,800,18.99,300
+South,Feb,1100,18.99,380
+South,Mar,1300,17.99,520
+East,Jan,600,20.99,180
+East,Feb,950,20.99,250
+East,Mar,1400,19.49,470
+West,Jan,1700,18.49,610
+West,Feb,1250,18.49,430
+West,Mar,1000,19.99,330

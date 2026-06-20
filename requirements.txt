@@ -1,0 +1,11 @@
+# Runtime dependencies for Auto_Analysis.
+# The Claude Agent SDK also needs a Node.js runtime on PATH.
+claude-agent-sdk
+pandas
+numpy
+scikit-learn
+matplotlib
+openpyxl
+
+# Dev / testing
+pytest
